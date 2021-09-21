@@ -1,0 +1,202 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.haut{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-image: url("image/workspace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+haut,h1{
+    font-size: 40px;
+}
+
+.bas{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #463f32;
+    background-image: url("image/mur.jpg");
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.s_img{
+    position: absolute;
+    top: 90%;
+    right: 40%;
+}
+
+.param{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.para{
+    margin-left: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.bordures{
+    height: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.f_bor{
+    border-radius: 50px;
+    border-color: gray;
+}
+
+.s_bor{
+    border-radius: 50px;
+    border-color: red;
+}
+
+.Rosario{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Rose{
+    border: 1px gray solid;
+    color: black;
+    background-color: gray;
+}
+
+.Dan{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dan{
+    border: 1px gray solid;
+    color: black;
+    border-color: gray;
+    background-color: gray;
+}
+
+.titl{
+    text-align: center;
+}
+
+.description{
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    margin: 10%;
+    border: 1px white outset;
+    box-shadow: 1px 1px 0px black;
+}
+
+.marketing{
+    text-align: center;
+}
+
+.st{
+    border: 1px brown solid;
+    border-radius: 50px;
+    color: white;
+    background-color: brown;
+}
+
+.uno{
+    margin: 70px;
+    border: 1px pink solid;
+    border-radius: 100%;
+    background-color: pink;
+}
+
+.dis{
+    border: 1px gray solid;
+    border-radius: 50px;
+    color: gray;
+}
+
+.end{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.bloc{
+    display: flex;
+    justify-content: space-around;
+}
+
+.end_border{
+    border: 1px white solid;
+    text-align: center;
+}
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0;
+    line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "READ";
+    padding-left: 10px;
+    background-color: red; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "UNREAD";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
