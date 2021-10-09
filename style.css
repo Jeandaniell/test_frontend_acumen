@@ -109,7 +109,6 @@ body{
     height: 100%;
     width: 100%;
     color: black;
-    background-color: gray;
     display: flex;
     justify-content: space-around;
 }
@@ -132,10 +131,13 @@ body{
 }
 
 .uno{
-    margin: 70px;
-    border: 1px pink solid;
-    border-radius: 100%;
-    background-color: pink;
+    border: 1px #FF1640 solid;
+    border-radius: 50%;
+    background-color: #FF1640;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    font-size: 0.5em;
 }
 
 .dis{
@@ -232,4 +234,37 @@ footer {
 .main-wrapper {
     margin: auto;
     width: 75%;
+}
+
+.market-content {
+    width: 85%;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card-highlight {
+    display: flex;
+}
+
+.card-content {
+    margin-top: 50px;
+    padding:20px;
+
+    color: rgba(45, 40, 40, 1);
+}
+
+.card-background {
+    background-image: url("image/mur-small.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-white {
+    color: rgba(255, 255, 255, 1);
+
 }
