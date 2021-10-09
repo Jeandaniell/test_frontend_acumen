@@ -28,8 +28,19 @@ body{
     position: relative;
     margin-top: 50px;
     padding: 50px;
+}
+
+.primary-marketing-images {
     display: flex;
-    justify-content: space-around;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mk-images-center {
+    display: flex;
+    justify-content: center
 }
 
 .s_img{
