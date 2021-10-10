@@ -62,8 +62,8 @@ body{
 }
 
 .bordures{
-    height: 50px;
-    width: 800px;
+    height: 30px;
+    width: 500px;
     display: flex;
     justify-content: space-around;
 }
@@ -97,8 +97,7 @@ body{
 .dan{
     border: 1px gray solid;
     color: black;
-    border-color: gray;
-    background-color: gray;
+    background-image: url("image/mur-small.svg");
 }
 
 .titl{
@@ -149,7 +148,6 @@ body{
 .end{
     height: 100%;
     width: 100%;
-    background-color: black;
     color: white;
 }
 
