@@ -51,7 +51,6 @@ body{
 .param{
     height: 100%;
     width: 100%;
-    display: flex;
     justify-content: space-around;
 }
 
@@ -154,11 +153,18 @@ body{
 .bloc{
     display: flex;
     justify-content: space-around;
+    padding-top: 50px;
 }
 
 .end_border{
     border: 1px white solid;
+    background-color: white;
+    width: 20%;
+    color: rgb(0, 0, 0);
     text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 1.2em;
 }
 
 .onoffswitch {
@@ -252,7 +258,6 @@ footer {
 .card-content {
     margin-top: 50px;
     padding:20px;
-
     color: rgba(45, 40, 40, 1);
 }
 
@@ -264,5 +269,8 @@ footer {
 
 .card-white {
     color: rgba(255, 255, 255, 1);
+}
 
+.alpine{
+    font-size: 1.4em;
 }
