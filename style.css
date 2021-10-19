@@ -50,14 +50,22 @@ body{
 
 .param{
     height: 100%;
-    width: 100%;
+    width: 100%; 
     justify-content: space-around;
 }
 
 .para{
-    margin-left: 10%;
+    margin-top: 10%;
+    margin-left: 12.5%;
+    margin-bottom: 10%;
     height: 100%;
-    width: 100%;
+    width: 71.1%;
+    border: 0.1px solid white;
+    padding-left: 50px;
+}
+
+haut+param+p{
+    letter-spacing: 20mm;
 }
 
 .bordures{
@@ -219,12 +227,12 @@ body{
 
 .shadow-black {
     box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
-
     background-color: #2D2828;
-    border: 1px solid rgba(255, 255, 255, 0.2);   
+    border: 1px solid rgba(255, 255, 255, 0.2);
     padding-top: 30px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
+
 footer {
     height: 40vh;
     width: 100%;
